@@ -33,7 +33,7 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 
 - [Configurar https en apache2](apacheHttps.md)
 
-Descripción: Esta sección aborda de manera detallada la configuración de HTTPS en el servidor web Apache2. Implementar HTTPS es fundamental para garantizar una comunicación segura entre el servidor y los clientes, añadiendo una capa de cifrado que protege la confidencialidad y la integridad de los datos transmitidos.
+
 
 ## Referencias:
 

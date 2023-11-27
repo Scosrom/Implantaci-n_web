@@ -24,6 +24,7 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 2. [Creación de un sitio virtual](creacionsv.md)
 3. [Puertos de escucha](puertos.md)
 4. [Configuración básica de Apache para producción](basicpro.md)
+5. [Directiva Directory](directory.md)
 
 - [Configurar https en apache2](apacheHttps.md)
 

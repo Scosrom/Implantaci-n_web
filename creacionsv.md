@@ -1,25 +1,78 @@
-Los sitios virtuales permite que un único servidor Apache pueda servir las páginas de varios dominios. Esto es posible gracias a que los navegadores envían siempre una cabecera Host que permite saber al servidor cuál es el dominio que se está solicitando.
+#
 
-Pasos:
-- Si no se dispone de un servidor público en Internet y dominios públicos tenemos que editar el fichero
-  /etc/hosts del servidor y añadir entradas para cada dominio
+una explicación paso a paso sobre cómo configurar sitios virtuales en Apache en un entorno local utilizando /etc/hosts para simular dominios públicos.
 
-- Creamos una carpeta para poner los ficheros del dominio dentro de /var/www
+### Paso 1: Editar /etc/hosts
 
-- Vamos a la carpeta
-  
+Edita el archivo /etc/hosts para simular dominios públicos. Abre el archivo en un editor de texto con privilegios de superusuario:
+
 ```
-- /etc/apache2/sites-available
+sudo nano /etc/hosts
 ```
 
-- Copiamos la "plantilla" del sitio por defecto. Por ejemplo: cp 000-default.conf sitio1.conf Tenemos que asegurarnos que los ficheros de configuración de los sitios virtuales acaban en .conf
+Añade líneas para cada dominio que deseas simular. Por ejemplo:
 
-- Editamos el fichero de configuración del sitio virtual
+```
+127.0.0.1   www.sitio1.com
+127.0.0.1   www.sitio2.com
+```
+Guarda los cambios y cierra el editor.
 
-- Descomentamos y cambiamos la directiva ServerName y ponemos el nombre del dominio. Por ejemplo ServerName www.sitio1.com
+### Paso 2: Crear Carpeta para los Ficheros del Dominio
 
-- Cambiarmos la directiva DocumentRoot para que apunte a la carpeta de publicación del dominio
+Crea una carpeta para los archivos del dominio en la ruta /var/www. Puedes hacerlo con:
 
-- Activamos el sitio. Por ejemplo a2ensite sitio1
+```
+sudo mkdir /var/www/sitio1
+sudo mkdir /var/www/sitio2
+```
 
-- Recargamos Apache con service apache2 reload
+### Paso 3: Ir a la Carpeta /etc/apache2/sites-available
+
+```
+cd /etc/apache2/sites-available
+```
+
+### Paso 4: Copiar Plantilla del Sitio por Defecto
+
+```
+sudo cp 000-default.conf sitio1.conf
+```
+
+### Paso 5: Editar el Fichero de Configuración del Sitio Virtual
+
+Abre el archivo de configuración del sitio virtual en un editor de texto:
+
+```
+sudo nano sitio1.conf
+```
+Descomenta y cambia la directiva ServerName para que coincida con el nombre de dominio que deseas. Por ejemplo
+
+```
+ServerName www.sitio1.com
+```
+
+Cambia la directiva DocumentRoot para que apunte a la carpeta que creaste para el sitio:
+
+```
+DocumentRoot /var/www/sitio1
+```
+
+Guarda los cambios y cierra el editor.
+
+### Paso 6: Activar el Sitio
+
+```
+sudo a2ensite sitio1
+```
+
+### Paso 7: Recargar Apache
+
+```
+sudo service apache2 reload
+```
+
+Puedes repetir estos pasos para cada dominio adicional que desees configurar. Asegúrate de ajustar las rutas y nombres de dominio según tus necesidades específicas. Después de seguir estos pasos, podrás acceder a los sitios virtuales en tu navegador escribiendo las direcciones configuradas en el archivo /etc/hosts. Por ejemplo, http://www.sitio1.com y http://www.sitio2.com.
+
+
+

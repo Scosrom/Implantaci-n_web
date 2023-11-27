@@ -20,6 +20,8 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 
 
 ### Apache2
+1. [Instalación de Apache y ficheros de configuración](instalacion.md)
+2. 
 
 - [Configurar https en apache2](apacheHttps.md)
 

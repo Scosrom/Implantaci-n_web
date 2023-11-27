@@ -37,6 +37,6 @@ Descripción: Esta sección aborda de manera detallada la configuración de HTTP
 
 ## Referencias:
 
-https://web.archive.org/web/20201006181005/https://sites.google.com/site/apache2iescamp/instalacion-de-apache-y-ficheros-de-configuracion
+[Documentacion Apache](https://web.archive.org/web/20201006181005/https://sites.google.com/site/apache2iescamp/instalacion-de-apache-y-ficheros-de-configuracion)
 
 

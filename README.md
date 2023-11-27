@@ -41,4 +41,7 @@ Descripción: Esta sección aborda de manera detallada la configuración de HTTP
 
 ## Licencia
 
+![68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792f342e302f38387833312e706e67](https://github.com/Scosrom/Implantaci-n_web/assets/114906778/00c7d698-824e-454f-91df-c8296b15936d)
+
+
 

@@ -1,4 +1,4 @@
-#
+# 02. Creación de un sitio virtual
 
 una explicación paso a paso sobre cómo configurar sitios virtuales en Apache en un entorno local utilizando /etc/hosts para simular dominios públicos.
 

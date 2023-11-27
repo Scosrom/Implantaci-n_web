@@ -34,6 +34,8 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 - [Configurar https en apache2](apacheHttps.md)
 
 
+Descripción: Esta sección proporciona una guía detallada para configurar y establecer un entorno web completo con Apache. Desde la instalación inicial hasta la implementación de características avanzadas, como la autenticación, redirecciones y manejo de errores personalizados, cada aspecto se aborda de manera integral. Se cubren temas esenciales como la instalación de un servidor LAMP, la configuración de un entorno WordPress y la habilitación de conexiones seguras mediante HTTPS. Este conjunto de tutoriales ofrece una visión completa de la administración y optimización del servidor Apache.
+
 
 ## Referencias:
 

@@ -26,6 +26,7 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 4. [Configuración básica de Apache para producción](basicpro.md)
 5. [Directiva Directory](directory.md)
 6. [Directiva Alias](alias.md)
+7. [Options Indexes](indexes.md)
 
 - [Configurar https en apache2](apacheHttps.md)
 

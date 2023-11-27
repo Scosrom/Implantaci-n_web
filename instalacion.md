@@ -25,4 +25,4 @@ Para comprobar si existen errores de sintaxis en los ficheros de configuración:
 apache2ctl -t
 ```
 
-Para evitar el mensaje de advertencia al ejecutar el comando anterior hay que añadir un ServerName en el fichero /etc/apache2/apache2.conf. Por ejemplo: ServerName www.iescamp.es
+Para evitar el mensaje de advertencia al ejecutar el comando anterior hay que añadir un ServerName en el fichero /etc/apache2/apache2.conf. 

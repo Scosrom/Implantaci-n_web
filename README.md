@@ -1,5 +1,8 @@
 # Implantación Web
 
+![775c7ee9-6385-44c7-b1e3-865f78971edf](https://github.com/Scosrom/Implantaci-n_web/assets/114906778/b270b99a-3794-4a04-afc1-6eeaa3ac4737)
+
+
 ## Introducción
 
 En esta guía, nos sumergiremos en la configuración y despliegue de tecnologías fundamentales para el desarrollo de aplicaciones web. El contenido se divide en las siguientes secciones clave:

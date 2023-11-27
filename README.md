@@ -30,6 +30,7 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 5. [Directiva Directory](directory.md)
 6. [Directiva Alias](alias.md)
 7. [Options Indexes](indexes.md)
+8. [DirectoryIndex](DirectoryIndex.md)
 
 - [Configurar https en apache2](apacheHttps.md)
 

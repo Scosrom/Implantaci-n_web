@@ -18,6 +18,7 @@ En esta guía, nos sumergiremos en la configuración y despliegue de tecnología
 ### Configuración de PHP, MariaDB y Apache2 Server
 
 1. [Configuracion de php, MariaDB y Apache2](pila.md)
+   
    1.1 [Script para la Implantacion](apm.sh)
 
 Descripción: Esta sección proporciona una guía detallada para configurar y establecer una pila de desarrollo web compuesta por PHP, MariaDB y Apache2. Esta combinación de tecnologías es esencial para el desarrollo y despliegue de aplicaciones web dinámicas y bases de datos relacionales.

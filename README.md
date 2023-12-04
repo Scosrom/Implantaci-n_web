@@ -15,7 +15,7 @@ En esta guía, nos sumergiremos en la configuración y despliegue de tecnología
 
 ## Contenido
 
-### Configuración de PHP, MariaDB y Apache2 Server
+### 1. Configuración de PHP, MariaDB y Apache2 Server
 
 1. [Configuracion de php, MariaDB y Apache2](pila.md)
    
@@ -24,7 +24,7 @@ En esta guía, nos sumergiremos en la configuración y despliegue de tecnología
 Descripción: Esta sección proporciona una guía detallada para configurar y establecer una pila de desarrollo web compuesta por PHP, MariaDB y Apache2. Esta combinación de tecnologías es esencial para el desarrollo y despliegue de aplicaciones web dinámicas y bases de datos relacionales.
 
 
-### Apache2
+### 2. Apache2
 1. [Instalación de Apache y ficheros de configuración](instalacion.md)
 2. [Creación de un sitio virtual](creacionsv.md)
 3. [Puertos de escucha](puertos.md)
@@ -39,6 +39,12 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 
 Descripción: Esta sección proporciona una guía detallada para configurar y establecer un entorno web completo con Apache. Desde la instalación inicial hasta la implementación de características avanzadas, como la autenticación, redirecciones y manejo de errores personalizados, cada aspecto se aborda de manera integral. Se cubren temas esenciales como la instalación de un servidor LAMP, la configuración de un entorno WordPress y la habilitación de conexiones seguras mediante HTTPS. Este conjunto de tutoriales ofrece una visión completa de la administración y optimización del servidor Apache.
 
+
+### Let’s Encrypt y Certbot
+
+1. [Let’s Encrypt y Certbot](practica3.md)
+
+Descripción: Esta sección presenta una guía paso a paso sobre el uso de Let's Encrypt y Certbot para obtener certificados SSL/TLS gratuitos y seguros para tu servidor web. Aprenderás a configurar HTTPS en tu sitio web, mejorando la seguridad y la confianza de los usuarios al cifrar la comunicación entre el servidor y los clientes.
 
 ## Referencias:
 

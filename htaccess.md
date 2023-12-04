@@ -1,6 +1,7 @@
-![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/2eb24656-d468-47be-998a-de1b1dfd0ca1)
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/d5ee2ec8-9ad7-4826-94fb-04228f82d390)
 
 
+.htaccess es un archivo de configuración en servidores Apache que permite ajustar la configuración y comportamiento del servidor para directorios específicos. Se utiliza para funciones como redirecciones, reescritura de URLs, autenticación de usuarios, control de acceso y personalización de páginas de error. Su uso incorrecto puede afectar el rendimiento del servidor.
 
 ### Paso 1. Crea el archivo de usuarios.
 

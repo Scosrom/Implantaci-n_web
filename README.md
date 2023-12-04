@@ -12,6 +12,8 @@ En esta guía, nos sumergiremos en la configuración y despliegue de tecnología
  1. Php, MariaDB y Apahe2
  
  2. Apache2
+    
+ 3. Let’s Encrypt y Certbot 
 
 ## Contenido
 

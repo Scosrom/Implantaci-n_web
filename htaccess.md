@@ -1,3 +1,7 @@
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/2eb24656-d468-47be-998a-de1b1dfd0ca1)
+
+
+
 ### Paso 1. Crea el archivo de usuarios.
 
 ```

@@ -15,7 +15,6 @@ Para poder habilitar el protocolo HTTPS en un sitio web es necesario obtener un 
 Let’s Encrypt​ es una autoridad de certificación que se puso en marcha el 12 de abril de 2016 y que proporciona certificados X.509 gratuitos para el cifrado de seguridad de nivel de transporte (TLS) a través de un proceso automatizado diseñado para eliminar el complejo proceso actual de creación manual, la validación, firma, instalación y renovación de los certificados de sitios web seguros. 
 
 #### 1.1.3 Cómo funciona Let’s Encrypt
-Se recomienda la lectura de la sección Cómo Funciona Let’s Encrypt de la documentación oficial.
 
 #### 1.1.4 ¿Qué es Certbot?
 Para poder obtener un certificado de Let’s Encrypt para un dominio de un sitio web es necesario demostrar que se tiene control sobre ese dominio. Para realizar esta tarea es necesario utilizar un cliente del protocolo ACME (Automated Certificate Management Environment). El cliente ACME recomendado para esta tarea es Certbot porque es fácil de usar, tiene soporte para muchos sistemas operativos y dispone de una excelente documentación.
@@ -60,17 +59,14 @@ Si utiliza el proveedor de nombres de dominio Freenom tendrá que acceder desde 
 
 Tendrá que añadir dos registros DNS de tipo A con la dirección IP pública de su instancia EC2 de AWS. Un registro estará en blanco para que pueda resolver el nombre de dominio sin las www y el otro registro estará con las www.
 
+![image](https://github.com/Scosrom/Implantaci-n_web/assets/114906778/24be1d7b-47be-4ffb-8111-1e1600b97c89)
 
-
-
-Nota: Tenga en cuenta que una vez que ha realizado los cambios en el DNS habrá que esperar hasta que los cambios se propaguen. Puede hacer uso de la utilidad dnschecker.org para comprobar el estado de propagación de las DNS.
+Una vez que ha realizado los cambios en el DNS habrá que esperar hasta que los cambios se propaguen. Puede hacer uso de la utilidad dnschecker.org para comprobar el estado de propagación de las DNS.
 
 ### 1.2.6 Paso 6
+
 Instalar y configurar el cliente ACME Certbot en su instancia EC2 de AWS, siguiendo los pasos de la documentación oficial.
 
-Se recomienda visitar la página web oficial de Certbot y utilizar el formulario para indicar el software que vamos a utilizar (Apache, Ngingx, HAProxy, etc.) y el sistema operativo. Una vez que hemos realizado la selección nos aparecerán las instrucciones que tenemos que tenemos que seguir.
-
-Ejemplo: A continuación se muestran los pasos que se han llevado a cabo para realizar la instalación y configuración de Certbot en una máquina con el servidor web Apache y el sistema operativo Ubuntu 20.04.
 
 Realizamos la instalación y actualización de snapd.
 
@@ -116,6 +112,10 @@ Y finalmente nos preguntará el nombre del dominio, si no lo encuentra en los ar
 
 A continuación se muestra un ejemplo de cómo es la interacción durante la ejecución del comando sudo certbot --apache.
 
+
+
+```
+# EJEMPLO
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
 Plugins selected: Authenticator apache, Installer apache
 Enter email address (used for urgent renewal and security notices)
@@ -173,7 +173,7 @@ IMPORTANT NOTES:
    Donating to EFF:                    https://eff.org/donate-le
 
    ![image](https://github.com/Scosrom/Implantaci-n_web/assets/114906778/8fea8d39-084d-43ac-9fcd-78e5b3840b0e)
-
+```
    
 Una vez llegado hasta este punto tendríamos nuestro sitio web con HTTPS habilitado y todo configurado para que el certificado se vaya renovando automáticamente.
 

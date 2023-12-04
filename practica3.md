@@ -75,6 +75,7 @@ Ejemplo: A continuación se muestran los pasos que se han llevado a cabo para re
 Realizamos la instalación y actualización de snapd.
 
 ```
+sudo apt install snapd
 sudo snap install core
 sudo snap refresh core
 ```
@@ -110,7 +111,9 @@ Habrá que introducir una dirección de correo electrónico. (Ejemplo: demo@demo
 Aceptar los términos de uso. (Ejemplo: y)
 
 Nos preguntará si queremos compartir nuestra dirección de correo electrónico con la Electronic Frontier Foundation. (Ejemplo: n)
+
 Y finalmente nos preguntará el nombre del dominio, si no lo encuentra en los archivos de configuración del servidor web. (Ejemplo: practicahttps.ml)
+
 A continuación se muestra un ejemplo de cómo es la interacción durante la ejecución del comando sudo certbot --apache.
 
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
@@ -168,6 +171,10 @@ IMPORTANT NOTES:
 
    Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
    Donating to EFF:                    https://eff.org/donate-le
+
+   ![image](https://github.com/Scosrom/Implantaci-n_web/assets/114906778/8fea8d39-084d-43ac-9fcd-78e5b3840b0e)
+
+   
 Una vez llegado hasta este punto tendríamos nuestro sitio web con HTTPS habilitado y todo configurado para que el certificado se vaya renovando automáticamente.
 
 Nota:
@@ -178,10 +185,20 @@ Dirección de correo: -m demo@demo.es
 Aceptamos los términos de uso: --agree-tos
 No queremos compartir nuestro email con la Electronic Frontier Foundation: --no-eff-email
 Dominio: -d practicahttps.ml
+
 Además, vamos a añadir el parámetro --non-interactive para que al ejecutar el comando no solicite al usuario ningún dato por teclado. Esta opción es útil cuando queremos automatizar la instalación de Certbot mediante un script.
 
 sudo certbot --apache -m demo@demo.es --agree-tos --no-eff-email -d practicahttps.ml --non-interactive
+
 Con el siguiente comando podemos comprobar que hay un temporizador en el sistema encargado de realizar la renovación de los certificados de manera automática.
 
+```
 systemctl list-timers
+```
+
+![image](https://github.com/Scosrom/Implantaci-n_web/assets/114906778/87db7115-2bf2-487d-9857-23fa22dc009b)
+
 Se recomienda revisar los archivos de configuración del servidor web para ver cuáles han sido las cambios que ha realizado el cliente Certbot.
+
+![image](https://github.com/Scosrom/Implantaci-n_web/assets/114906778/5d47deab-c692-4ac3-b968-ded19178c923)
+

@@ -6,7 +6,7 @@ htpasswd -c /ruta/al/nuevo/archivo/de/usuarios nombre_de_usuario
 
 Este comando te pedirá que ingreses y confirmes la contraseña del nuevo usuario.
 
-Agregar Usuarios Adicionales (Opcional)
+**Agregar Usuarios Adicionales (Opcional)**
 
 Si deseas agregar más usuarios al mismo archivo, puedes usar el mismo comando sin la opción -c para evitar crear un nuevo archivo:
 

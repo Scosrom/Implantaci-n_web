@@ -1,3 +1,8 @@
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/614d1fed-41ec-4d20-8b88-5614da649034)
+
+
+Adminer es una herramienta de administración de bases de datos que proporciona una interfaz de usuario web simple y efectiva para gestionar bases de datos. A diferencia de otras herramientas más complejas, Adminer se destaca por su diseño minimalista y su capacidad para funcionar como una única aplicación PHP sin necesidad de instalación adicional
+
 # Instalación de Adminer
 
 ### Actualiza el índice de paquetes

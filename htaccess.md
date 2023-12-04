@@ -78,3 +78,6 @@ Visita tu sitio web y verifica si las configuraciones que has agregado en el arc
 
 ![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/fbbe62f0-a0f9-464e-8ccc-83eb209bf8d9)
 
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/d8895ccf-6966-4ee0-8b57-ee784e505fb7)
+
+

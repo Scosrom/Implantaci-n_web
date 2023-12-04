@@ -1,5 +1,8 @@
 ## 1 Práctica: HTTPS con Let’s Encrypt y Certbot
 
+![image](https://github.com/Scosrom/Implantaci-n_web/assets/114906778/fb1ad80d-2f35-4df7-8d8c-e98df7f0ee9e)
+
+
 En esta práctica tendremos que realizar la instalación de la pila LAMP y la configuración de un certificado SSL/TLS con Let’s Encrypt y Certbot en el servidor web Apache, en una instancia EC2 de Amazon Web Services (AWS) con la última versión de Ubuntu Server.
 
 

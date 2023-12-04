@@ -76,8 +76,7 @@ sudo service apache2 restart
 Paso 9: Verifica el Funcionamiento
 Visita tu sitio web y verifica si las configuraciones que has agregado en el archivo .htaccess están surtiendo efecto.
 
-![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/fbbe62f0-a0f9-464e-8ccc-83eb209bf8d9)
 
-![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/d8895ccf-6966-4ee0-8b57-ee784e505fb7)
+![Diseño sin título](https://github.com/Scosrom/Implantacion_web/assets/114906778/3830f0cf-82da-4251-a8e5-10eaaa15c788)
 
 

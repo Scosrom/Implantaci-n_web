@@ -13,4 +13,4 @@ Para añadir puertos de escucha a parte del puerto por defecto 80 hay que editar
 - Para que los sitios virtuales funcionen en los puertos de escucha añadidos hay que editar el fichero de configuración del sitio y poner algo parecido a lo siguiente: 
 <VirtualHost *:80 *.90>
 
-![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/b8ad448a-65e9-4174-a658-2959f2031bd9)
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/da9dba66-6377-436d-9292-1726d3be88c4)

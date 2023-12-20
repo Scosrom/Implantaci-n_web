@@ -40,9 +40,12 @@ En este ejemplo, las líneas Alias están mapeando las URL /info y /contacto a l
 
 - Alias /contacto /www/sitio1/contacto: Mapea la URL /contacto a la ruta del sistema de archivos /www/sitio1/contacto.
 
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/9bcb3d26-b29d-4164-ab40-c3819fa05dd6)
+
+
 ### Paso 4: Bloque Directory Apropiado
 
-i estás utilizando Alias para mapear a rutas fuera de /var/www, asegúrate de tener un bloque <Directory> apropiado que permita el acceso a esas rutas, similar a lo explicado en el paso anterior
+Si estás utilizando Alias para mapear a rutas fuera de /var/www, asegúrate de tener un bloque <Directory> apropiado que permita el acceso a esas rutas, similar a lo explicado en el paso anterior
 
 ### Paso 5: Guardar y Cerrar el Archivo
 

@@ -1,20 +1,12 @@
 # Configuración de Acceso y Restricciones en Apache
 
-**Order deny,allow:**
+- **Order deny,allow:** Hace que, por defecto, todos los clientes tengan permitido el acceso.
 
-Hace que, por defecto, todos los clientes tengan permitido el acceso.
+- **Order allow,deny:** Hace que, por defecto, ningún cliente tenga permitido el acceso.
 
-**Order allow,deny:**
+- **Allow from:** Permite especificar clientes que tienen permitido el acceso. Ejemplo: Allow from 192.168.100.0/24 127.0.0.1
 
-Hace que, por defecto, ningún cliente tenga permitido el acceso.
-
-**Allow from:**
-
-Permite especificar clientes que tienen permitido el acceso. Ejemplo: Allow from 192.168.100.0/24 127.0.0.1
-
-**Deny from:**
-
-Permite especificar clientes que no tienen permitido el acceso. Ejemplo: Deny from 192.168.2.3
+- **Deny from:** Permite especificar clientes que no tienen permitido el acceso. Ejemplo: Deny from 192.168.2.3
 
 **Modificación del archivo /etc/hosts:**
 

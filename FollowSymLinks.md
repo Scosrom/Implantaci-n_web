@@ -51,3 +51,6 @@ Puedes verificar que el enlace simbólico se ha creado correctamente usando el c
 ```
 ls -l /var/www/sitio1/ficheros
 ```
+
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/128af27e-483d-4b55-ba54-459a64847b56)
+

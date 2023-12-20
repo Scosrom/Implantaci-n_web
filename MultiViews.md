@@ -70,4 +70,6 @@ Prueba de MultiViews:
 
 Abre tu navegador y establece el idioma preferido. Accede a tu sitio web y observa si se muestra la página correspondiente al idioma.
 
-Recuerda que la configuración de idioma puede depender de las preferencias del navegador del usuario. ¡Éxito con tus ejercicios y tu repositorio GitHub!
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/40c0c4db-ccbf-4677-817e-7933b82167d9)
+
+

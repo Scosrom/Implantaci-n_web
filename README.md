@@ -48,6 +48,7 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 13. [Control de acceso](Controldeacceso.md)
 14. [Autenticación BASIC](AutenticaciónBASIC.md)
 15. [Autenticación DIGEST](AutenticaciónDIGEST.md)
+16. [Ficheros .HTACCESS](Ficheros.HTACCESS.md)
 
 - [Configurar https en apache2](apacheHttps.md)
 

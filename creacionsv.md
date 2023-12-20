@@ -18,6 +18,9 @@ Añade líneas para cada dominio que deseas simular. Por ejemplo:
 ```
 Guarda los cambios y cierra el editor.
 
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/5e043204-98c1-4f11-93b8-a87ff51376c1)
+
+
 ### Paso 2: Crear Carpeta para los Ficheros del Dominio
 
 Crea una carpeta para los archivos del dominio en la ruta /var/www. Puedes hacerlo con:
@@ -59,6 +62,9 @@ DocumentRoot /var/www/sitio1
 ```
 
 Guarda los cambios y cierra el editor.
+
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/952de2a7-2492-4bc9-a112-72e494ac89ca)
+
 
 ### Paso 6: Activar el Sitio
 

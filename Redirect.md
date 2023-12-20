@@ -57,3 +57,6 @@ Abre tu navegador y accede a http://sitio1.com/mas_info. Observa el comportamien
 Luego, modifica la configuración para utilizar Redirect en lugar de Alias. Reinicia Apache y prueba nuevamente.
 
 Observa las diferencias en el comportamiento entre Alias y Redirect.
+
+
+![1](https://github.com/Scosrom/Implantacion_web/assets/114906778/50c472ca-dbf6-4e45-802c-2d813510ba10)

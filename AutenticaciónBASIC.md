@@ -11,57 +11,21 @@ Configuración de ejemplo para proteger mediante autenticación un usuario:
     Require valid-user
 </Directory>
 ```
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/4790d2c9-7df2-4bab-8a7c-59cc8be128bc)
 
 Comando para crear el fichero de usuarios:
 
 ```
 htpasswd -c /etc/apache2/claves.txt juan
 ```
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/5a4e7037-0c5d-403a-ac21-8cb15f1d960a)
+
 
 El parámetro -c se utiliza para crear el fichero. Si el fichero ya existe, no debemos incluir ese parámetro para añadir otro usuario al fichero.
 
-Ejercicios:
-Configuración de Autenticación BASIC:
-
-Abre el archivo de configuración de Apache:
-
-```
-sudo nano /etc/apache2/sites-available/sitio1.conf
-```
-
-Agrega las siguientes líneas dentro del bloque <VirtualHost>:
-
-```
-<VirtualHost *:80>
-    # ... otras configuraciones ...
-
-    <Directory "/var/www/miweb/privado">
-        Order deny,allow
-        AuthUserFile "/etc/apache2/claves.txt"
-        AuthName "Palabra de paso"
-        AuthType Basic
-        Require valid-user
-    </Directory>
-
-    # ... otras configuraciones ...
-</VirtualHost>
-```
-
-Guarda y cierra el archivo.
-
-Creación del fichero de usuarios:
-
-Utiliza el siguiente comando para crear el fichero de usuarios y agregar el usuario "juan":
-
-```
-sudo htpasswd -c /etc/apache2/claves.txt juan
-```
-
-Introduce la contraseña cuando se te solicite.
-
-Prueba de Autenticación y Gestión de Usuarios:
-
 Intenta acceder a la parte protegida de tu sitio web (/var/www/miweb/privado) en tu navegador. Se te solicitará un nombre de usuario y una contraseña.
+
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/e0d46ba4-941c-42f1-928c-cd631d8099ea)
 
 Para añadir otro usuario al fichero, utiliza el siguiente comando (sin el parámetro -c):
 

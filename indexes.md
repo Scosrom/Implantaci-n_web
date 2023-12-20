@@ -49,5 +49,7 @@ Después de realizar cambios en la configuración de Apache, reinicia el servici
 sudo service apache2 restart
 ```
 
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/732f5a31-8000-42ca-b1d7-43b811c41949)
+
 
 

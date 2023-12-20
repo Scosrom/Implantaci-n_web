@@ -75,6 +75,6 @@ Desde otra IP
 
 Desde la IP 192.168.1.9
 
-![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/4c226628-353b-4f0e-b9a9-bea3efb6f8b5)
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/715713ec-e227-4bf7-b813-b3a286be00e7)
 
 

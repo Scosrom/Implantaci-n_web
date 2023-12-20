@@ -17,7 +17,7 @@ Configuración con Alias:
 Abre el archivo de configuración de Apache:
 
 ```
-sudo nano /etc/apache2/sites-available/000-default.conf
+sudo nano /etc/apache2/sites-available/sitio1.conf
 ```
 
 Añade la siguiente línea para configurar Alias:

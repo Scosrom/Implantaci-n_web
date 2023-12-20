@@ -2,7 +2,7 @@
 Abre el archivo de configuración de Apache. Puedes usar un editor de texto como nano o vi. Por ejemplo:
 
 ```
-sudo nano /etc/apache2/sites-available/000-default.conf
+sudo nano /etc/apache2/sites-available/sitio1.conf
 ```
 Añade la siguiente línea dentro del bloque <VirtualHost>:
 

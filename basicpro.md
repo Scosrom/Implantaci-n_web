@@ -65,6 +65,11 @@ Después de realizar cambios en la configuración de Apache, es necesario reinic
 sudo service apache2 restart
 ```
 
+Antes:
+
+Ahora:
+
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/861a0e01-3f37-4913-a5b3-eac5c927cb74)
 
 
 

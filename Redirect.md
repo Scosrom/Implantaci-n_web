@@ -52,7 +52,7 @@ sudo service apache2 restart
 
 Prueba de Diferencia entre Alias y Redirect:
 
-Abre tu navegador y accede a http://tu-sitio.com/mas_info. Observa el comportamiento de la barra de direcciones y cómo se muestra la página.
+Abre tu navegador y accede a http://sitio1.com/mas_info. Observa el comportamiento de la barra de direcciones y cómo se muestra la página.
 
 Luego, modifica la configuración para utilizar Redirect en lugar de Alias. Reinicia Apache y prueba nuevamente.
 

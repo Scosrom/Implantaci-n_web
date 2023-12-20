@@ -51,6 +51,7 @@ Agrega la siguiente línea al archivo:
 ```
 LogLevel crit
 ```
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/e99fbc45-59fb-4b89-918d-3b749766d086)
 
 ### Paso 6: Guardar y Cerrar el Archivo
 

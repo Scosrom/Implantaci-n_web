@@ -43,6 +43,7 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 8. [DirectoryIndex](DirectoryIndex.md)
 9. [FollowSymLinks](FollowSymLinks.md)
 10. [MultiViews](MultiViews.md)
+11. [Redirect](Redirect.md)
 
 - [Configurar https en apache2](apacheHttps.md)
 

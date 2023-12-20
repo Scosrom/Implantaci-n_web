@@ -45,6 +45,7 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 10. [MultiViews](MultiViews.md)
 11. [Redirect](Redirect.md)
 12. [Errores personalizados](Errorespersonalizados.md)
+13. [Control de acceso](Controldeacceso.md)
 
 - [Configurar https en apache2](apacheHttps.md)
 

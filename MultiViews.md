@@ -14,6 +14,9 @@ Añade la siguiente línea dentro del bloque <VirtualHost>:
 Options MultiViews
 ```
 
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/64d85c20-354c-4d24-a0ab-5db3632e8dbc)
+
+
 Guarda y cierra el archivo.
 
 Reinicia Apache para aplicar los cambios:
@@ -52,6 +55,8 @@ Asegúrate de que la configuración refleje tus preferencias de idioma. Por ejem
     LanguagePriority es en de
 </IfModule>
 ```
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/1861dc69-4217-4e76-8092-4740c920edd6)
+
 
 Guarda y cierra el archivo.
 

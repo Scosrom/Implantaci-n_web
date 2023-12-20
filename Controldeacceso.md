@@ -39,6 +39,8 @@ Añade las siguientes líneas para restringir el acceso basándose en direccione
     Allow from 192.168.1.0/24 127.0.0.1
 </Directory>
 ```
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/86d9c36f-0231-48db-b658-2d71b4e79057)
+
 
 Guarda y cierra el archivo.
 

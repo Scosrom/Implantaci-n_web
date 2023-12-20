@@ -44,6 +44,7 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 9. [FollowSymLinks](FollowSymLinks.md)
 10. [MultiViews](MultiViews.md)
 11. [Redirect](Redirect.md)
+12. [Errores personalizados](Errorespersonalizados.md)
 
 - [Configurar https en apache2](apacheHttps.md)
 

@@ -46,6 +46,7 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 11. [Redirect](Redirect.md)
 12. [Errores personalizados](Errorespersonalizados.md)
 13. [Control de acceso](Controldeacceso.md)
+14. [Autenticación BASIC](AutenticaciónBASIC.md)
 
 - [Configurar https en apache2](apacheHttps.md)
 

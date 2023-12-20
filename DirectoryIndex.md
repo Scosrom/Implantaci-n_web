@@ -25,6 +25,10 @@ DirectoryIndex index.html index.php
 ```
 En este caso, primero se intentará encontrar un archivo index.html, y si no se encuentra, se buscará un archivo index.php.
 
+
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/6adbe918-749e-4b3f-8402-2d1e0f9efe54)
+
+
 ### 5. Guardar y Salir:
 
 Guarda los cambios en el archivo de configuración y ciérralo.
@@ -36,5 +40,13 @@ Ejecuta el siguiente comando para recargar la configuración de Apache y aplicar
 ```
 sudo systemctl reload apache2
 ```
+
+Cambiamos el nombre al index.html
+
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/921b2070-0cbf-44ac-b509-4886e2e14803)
+
+Comprobamos que ahora carga nuestro index.php
+
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/a5a10e62-908c-44e2-ac8c-2636eec84a31)
 
 

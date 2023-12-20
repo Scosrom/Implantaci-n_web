@@ -63,7 +63,18 @@ Prueba de Acceso Restringido:
 
 Utiliza el comando wget desde la máquina remota para probar el acceso:
 
-bash
-Copy code
+```
 wget -nv -qO - http://www.sitio1.com
+```
+
 Este comando debería devolver el contenido de la página si la IP de la máquina remota está permitida y denegar el acceso si no lo está.
+
+Desde otra IP
+
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/bec532d9-160d-4075-8ea3-49494c5b4110)
+
+Desde la IP 192.168.1.9
+
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/4c226628-353b-4f0e-b9a9-bea3efb6f8b5)
+
+

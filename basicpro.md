@@ -20,6 +20,14 @@ Agrega la siguiente línea al archivo:
 ServerTokens Prod
 ```
 
+Antes:
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/87a0271e-8341-4247-9ca3-619969ef525a)
+
+
+Ahora:
+
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/861a0e01-3f37-4913-a5b3-eac5c927cb74)
+
 ### Paso 3: Configuración MaxKeepAliveRequests
 
 La directiva MaxKeepAliveRequests establece el número máximo de solicitudes que se permiten en una conexión Keep-Alive persistente. Una conexión Keep-Alive permite que el mismo cliente realice múltiples solicitudes a través de la misma conexión TCP, lo que puede mejorar el rendimiento.
@@ -65,11 +73,7 @@ Después de realizar cambios en la configuración de Apache, es necesario reinic
 sudo service apache2 restart
 ```
 
-Antes:
 
-Ahora:
-
-![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/861a0e01-3f37-4913-a5b3-eac5c927cb74)
 
 
 

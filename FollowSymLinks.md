@@ -20,6 +20,9 @@ El bloque podría verse así:
 </VirtualHost>
 ```
 
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/2656af05-de5b-4973-8050-55312a450558)
+
+
 Guarda y cierra el archivo.
 
 Reinicia Apache para aplicar los cambios:

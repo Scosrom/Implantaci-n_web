@@ -37,6 +37,9 @@ Dentro del bloque <VirtualHost> de tu archivo de configuración, agrega el bloqu
 
 - **Require all granted:** Permite el acceso a todos los clientes.
 
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/61a70cae-ccac-4f01-9233-8ee75ffbb705)
+
+
 ### Paso 4: Guardar y Cerrar el Archivo
 
 Guarda los cambios y cierra el archivo de configuración.

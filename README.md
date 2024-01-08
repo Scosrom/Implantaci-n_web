@@ -64,6 +64,12 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 
 Descripción: Esta sección presenta una guía paso a paso sobre el uso de Let's Encrypt y Certbot para obtener certificados SSL/TLS gratuitos y seguros para tu servidor web. Aprenderás a configurar HTTPS en tu sitio web, mejorando la seguridad y la confianza de los usuarios al cifrar la comunicación entre el servidor y los clientes.
 
+### Docker
+
+ 1. [Instalación](docker.md)
+
+Descripción: Docker es una plataforma de contenedorización que simplifica la creación, implementación y ejecución de aplicaciones al encapsularlas con todas sus dependencias en contenedores. Los contenedores son entornos ligeros y portátiles que aseguran la consistencia en diferentes entornos.
+
 ## Referencias:
 
 [Documentacion Apache](https://web.archive.org/web/20201006181005/https://sites.google.com/site/apache2iescamp/instalacion-de-apache-y-ficheros-de-configuracion)

@@ -3,7 +3,7 @@
 echo -e "echo 'Hello from Docker'" > entrypoint.sh && echo -e "FROM ubuntu:20.04\nCOPY entrypoint.sh /entrypoint.sh\nENTRYPOINT [\"/bin/sh\", \"/entrypoint.sh\"]" > Dockerfile && docker build . -t my_docker_image && docker run -t my_docker_imagedocker ps
 ```
 
-Desglose comando:
+### Desglose comando:
 
 Crear un script de entrada (entrypoint.sh):
 

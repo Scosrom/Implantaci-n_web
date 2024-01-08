@@ -66,7 +66,8 @@ Descripción: Esta sección presenta una guía paso a paso sobre el uso de Let's
 
 ### Docker
 
- 1. [Instalación](docker.md)
+ 1. [Instalación de Docker](docker.md)
+ 2. [Creación de una imagen](docker2.md)
 
 Descripción: Docker es una plataforma de contenedorización que simplifica la creación, implementación y ejecución de aplicaciones al encapsularlas con todas sus dependencias en contenedores. Los contenedores son entornos ligeros y portátiles que aseguran la consistencia en diferentes entornos.
 

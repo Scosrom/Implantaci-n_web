@@ -42,3 +42,24 @@ sed -i "s/password_here/$WORDPRESS_DB_PASSWORD/" /var/www/html/wp-config.php
 sed -i "s/localhost/$WORDPRESS_DB_HOST/" /var/www/html/wp-config.php
 
 chown -R www-data:www-data /var/www/html/
+
+# Configurar .htaccess
+cat <<EOF >>/var/www/html/.htaccess
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+EOF
+
+# Habilitar mod_rewrite y reiniciar apache2
+a2enmod rewrite
+systemctl restart apache2
+
+
+

@@ -66,7 +66,8 @@ Descripción: Esta sección presenta una guía paso a paso sobre el uso de Let's
 
 ### 4. WordPress
 
-1. [Script Instalación](Wordpress.sh)
+1. [Script Instalación de WordPress en el directorio raíz ](Wordpress.sh)
+2. [Script 
    
 ### 5. Docker
 

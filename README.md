@@ -64,11 +64,11 @@ Descripción: Esta sección proporciona una guía detallada para configurar y es
 
 Descripción: Esta sección presenta una guía paso a paso sobre el uso de Let's Encrypt y Certbot para obtener certificados SSL/TLS gratuitos y seguros para tu servidor web. Aprenderás a configurar HTTPS en tu sitio web, mejorando la seguridad y la confianza de los usuarios al cifrar la comunicación entre el servidor y los clientes.
 
-### WordPress
+### 4. WordPress
 
 1. [Script Instalación](wordpress.sh)
    
-### Docker
+### 5. Docker
 
  1. [Instalación de Docker](docker.md)
  2. [Creación de una imagen](docker2.md)

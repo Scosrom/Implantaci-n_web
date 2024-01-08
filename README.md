@@ -67,7 +67,9 @@ Descripción: Esta sección presenta una guía paso a paso sobre el uso de Let's
 ### 4. WordPress
 
 1. [Script Instalación de WordPress en el directorio raíz ](Wordpress.sh)
-2. [Script 
+2. [Script Instalación de WordPress en su propio directorio](Wordpress2.sh)
+
+Descripción: Es un sistema de gestión de contenidos (CMS) que facilita la creación y administración de sitios web. Es fácil de usar, altamente personalizable, y cuenta con una gran comunidad de usuarios y desarrolladores. Su flexibilidad y amplia gama de temas y complementos lo hacen ideal para diversos tipos de sitios, desde blogs hasta comercio electrónico. 
    
 ### 5. Docker
 

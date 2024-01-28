@@ -174,9 +174,9 @@ IMPORTANT NOTES:
 
    Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
    Donating to EFF:                    https://eff.org/donate-le
-
-   ![image](https://github.com/Scosrom/Implantaci-n_web/assets/114906778/8fea8d39-084d-43ac-9fcd-78e5b3840b0e)
 ```
+   ![image](https://github.com/Scosrom/Implantaci-n_web/assets/114906778/8fea8d39-084d-43ac-9fcd-78e5b3840b0e)
+
    
 Una vez llegado hasta este punto tendríamos nuestro sitio web con HTTPS habilitado y todo configurado para que el certificado se vaya renovando automáticamente.
 

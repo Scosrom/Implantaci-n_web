@@ -1,48 +1,44 @@
-## Creación de una imagen de Docker
-```
-mkdir mi_proyecto_docker
-cd mi_proyecto_docker
-```
-Esto crea un nuevo directorio llamado mi_proyecto_docker y navega al interior del mismo.
+# Comandos Básicos contenedores:
+
+Mostrar los contenedores en ejecución (Estado Up)
 
 ```
-nano Dockerfile
-```
-Abre un editor de texto llamado nano para crear el archivo Dockerfile. Dentro de este archivo, colocamos las instrucciones para construir nuestra imagen Docker.
-
-Tenemos que tener algo asi:
-```
-# Usa una imagen oficial de Ubuntu como imagen principal
-FROM ubuntu:20.04
-
-# Establece el directorio de trabajo dentro del contenedor
-WORKDIR /app
-
-# Copia el contenido del directorio actual al contenedor en /app
-COPY . /app
-
-# Ejecuta hello.sh cuando se inicia el contenedor
-CMD ["sh", "hello.sh"]
-```
-Este Dockerfile especifica que queremos utilizar la imagen oficial de Ubuntu 20.04, establecer el directorio de trabajo dentro del contenedor en /app, copiar el contenido del directorio actual al contenedor, y ejecutar el script hello.sh cuando el contenedor se inicia.
-
-```
-nano hello.sh
-```
-Abre un editor de texto para crear el script hello.sh. Dentro del script, añadimos el siguiente contenido:
-
-```
-echo 'Hello from Docker'
+docker ps
 ```
 
-```
-sudo docker build -t mi_imagen_docker .
-```
-Este comando construye la imagen Docker utilizando el Dockerfile presente en el directorio actual (.) y le asigna el nombre mi_imagen_docker.
+Mostrar todos los contenedores creados ya estén en ejecución (Estado Up) o parados (Estado Exited)
 
 ```
-sudo docker run -t mi_imagen_docker
+docker ps -a
 ```
-Este comando ejecuta un contenedor basado en la imagen mi_imagen_docker que acabamos de construir. Deberías ver la salida del script hello.sh.
 
+
+# Ejecutar Contenedores.
+
+1. Básico
+
+Descarhar una imagen:
+
+```
+docker pull ubuntu:18.04
+```
+Crear un contenedor de ubuntu:18.04 y tener acceso a un shell en él. Si no hemos descargado la imagen de manera previa se descargará.
+
+```
+docker run -it ubuntu:18.04 /bin/bash
+```
+
+2. Crear un contenedor de httpd (Servidor Apache)
+
+```
+docker run httpd
+```
+
+Para acceder al servidor Apache2 desde tu host, necesitas mapear el puerto del contenedor al puerto del host al ejecutar el contenedor. Puedes hacer esto utilizando el argumento -p de Docker. 
+
+```
+docker run -p 8080:80 httpd
+```
+
+Este comando mapea el puerto 80 del contenedor al puerto 8080 del host. Ahora, podrías acceder al servidor Apache2 desde tu host usando http://localhost:8080 en tu navegador web.
 

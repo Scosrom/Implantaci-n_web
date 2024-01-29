@@ -15,7 +15,7 @@ docker ps -a
 
 # Ejecutar Contenedores.
 
-1. Básico
+## 1. Básico
 
 Descarhar una imagen:
 
@@ -28,7 +28,7 @@ Crear un contenedor de ubuntu:18.04 y tener acceso a un shell en él. Si no hemo
 docker run -it ubuntu:18.04 /bin/bash
 ```
 
-2. Crear un contenedor de httpd (Servidor Apache)
+## 2. Crear un contenedor de httpd (Servidor Apache)
 
 ```
 docker run httpd

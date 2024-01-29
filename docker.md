@@ -39,3 +39,32 @@ Instalo Docker en mi sistema.
 sudo systemctl status docker
 ```
 Verifico el estado del servicio Docker para asegurarme de que está instalado y en ejecución.
+
+---
+# Crear Grupo Docker y añadir Usuario. 
+
+1. Crea el dockergrupo.
+
+```
+sudo groupadd docker
+```
+
+2. Añade tu usuario al dockergrupo.
+
+```
+sudo usermod -aG docker $USER
+```
+
+3. Cierre sesión y vuelva a iniciarla para que se reevalúe su membresía en el grupo.
+
+```
+newgrp docker
+```
+4. Verifique que pueda ejecutar dockercomandos sin sudo.
+
+```
+docker run hello-world
+```
+Este comando descarga una imagen de prueba y la ejecuta en un contenedor. Cuando el contenedor se ejecuta, imprime un mensaje y sale
+
+

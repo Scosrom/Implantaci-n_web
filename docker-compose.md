@@ -23,3 +23,5 @@ Comprobación de que la instalación está correcta.
 ```
 docker-compose --version
 ```
+
+docker-compose version 1.27.4, build 40524192

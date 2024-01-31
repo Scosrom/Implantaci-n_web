@@ -1,3 +1,5 @@
+![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/180c532c-2796-41ad-bfd2-f46975293f54)
+
 ```
 nano docker-compose.yml
 ```

@@ -1,6 +1,9 @@
 ```
 nano docker-compose.yml
 ```
+En este archivo, defines la configuración para dos servicios: web y datos. El servicio web es tu servidor web de WordPress y el servicio datos es tu servidor de base de datos.
+
+Este archivo define servicios, volúmenes y redes necesarios para tu entorno Docker.
 
 Dentro de este fichero pegamos el siguiente contenido: 
 

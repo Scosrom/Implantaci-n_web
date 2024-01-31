@@ -2,7 +2,7 @@
 
 ![image](https://github.com/Scosrom/Implantacion_web/assets/114906778/1b6b43e2-d786-4df0-8010-a4caeb3e0db2)
 
-<code>SO Linux</code>
+<code>Linux-Debian</code>
 <code>docker-compose version 1.27.4</code>
 
 Docker Compose es una herramienta que permite definir y gestionar aplicaciones Docker multi-contenedor. Docker es una plataforma de contenedores que facilita la creación, distribución y ejecución de aplicaciones en entornos aislados llamados contenedores.

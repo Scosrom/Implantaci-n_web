@@ -74,6 +74,7 @@ Descripción: Es un sistema de gestión de contenidos (CMS) que facilita la crea
 
  1. [Instalación de Docker](docker.md)
  2. [Creación de una imagen](docker2.md)
+ 3. [Docker-compose](docker-compose.md)
 
 Descripción: Docker es una plataforma de contenedorización que simplifica la creación, implementación y ejecución de aplicaciones al encapsularlas con todas sus dependencias en contenedores. Los contenedores son entornos ligeros y portátiles que aseguran la consistencia en diferentes entornos.
 

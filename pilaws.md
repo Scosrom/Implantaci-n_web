@@ -76,11 +76,17 @@ networks:
         - subnet: 172.20.0.0/16
 ```
 
+Ejecutamos el fichero
+
+```
+docker-compose up
+```
+
 Nos encontraremos un problema, y es que Wordpress y Mysql cogeran la ip "localhost" y podremos tener problemas
 si queremos abrir la página desde otra red. También tendremos problemas en servicios como Amazon, que cambia frecuentemente la ip.
 Para solventar esto hacemos lo siguiente:
 
-1. Entramos en nuestro contenedor web.
+Entramos en nuestro contenedor web.
 
 ```
 # Para saber como se llama nuestro contenedor.

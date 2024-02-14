@@ -29,7 +29,7 @@ En esta guía, nos sumergiremos en la configuración y despliegue de tecnología
 
    1.4 [.htaccess](htaccess.md)
 
-   1.5 [Implantancion Lamp son Ansible en AWS](https://github.com/Scosrom/Ansible-aws)
+   1.5 [Implantancion Lamp son Ansible en AWS](https://github.com/Scosrom/Ansible-aws/blob/main/practica1.md)
 
 Descripción: Esta sección proporciona una guía detallada para configurar y establecer una pila de desarrollo web compuesta por PHP, MariaDB y Apache2. Esta combinación de tecnologías es esencial para el desarrollo y despliegue de aplicaciones web dinámicas y bases de datos relacionales.
 
